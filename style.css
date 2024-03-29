@@ -13,12 +13,12 @@
 /* edward = #ABB7B7 */
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5em;
 
-  color: #22313F;
+  color: #22313f;
 }
 
 article {
@@ -45,34 +45,35 @@ article {
   .hide-print {
     display: none;
   }
-
 }
 
 .personal {
-  font-size: 1em
+  font-size: 1em;
 }
 
 a,
 a:focus,
 a:visited,
 a:hover {
-  color: #1E8BC3;
+  color: #1e8bc3;
 }
 
 .muted {
-  color: #BFBFBF;
+  color: #bfbfbf;
 }
 
 .muted .date,
 .muted a {
-  color: #ABB7B7;
+  color: #abb7b7;
 }
 
 .inline {
   display: inline-block;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 
@@ -82,7 +83,8 @@ h1 {
   font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
   letter-spacing: 0.1em;
   font-variant: small-caps;
   letter-spacing: 1px;
@@ -101,7 +103,6 @@ h2 {
 }
 
 h3 {
-  font-size: 1.0em;
   line-height: 1.2em;
   font-weight: 400;
   padding-top: 0.2em;
@@ -110,19 +111,26 @@ h3 {
 .entry {
   font-weight: 300;
   font-size: 1.1em;
-  margin-bottom: 1.5em;
+}
+
+#employment-header {
+  margin-bottom: 0.5em;
+  position: inherit;
 }
 
 .content {
-  padding: 0 1em
+  padding: 0 1em;
 }
 
 .experience {
-  margin-top: 0.5em
+  margin-top: 0.5em;
+  list-style: none;
 }
 
-section, p {
+section,
+p {
   margin: 0.5em 0;
+  text-align: justify;
 }
 
 article section:first-of-type,
@@ -137,10 +145,10 @@ article section:last-of-type p:last-of-type {
 }
 
 ul {
-  margin: 0;
+  margin: 0.3em 0;
   padding: 0 1.3em;
   list-style-type: none;
-  text-align: justify
+  text-align: justify;
 }
 
 .columns {
@@ -167,7 +175,7 @@ ul {
   text-align: right;
 }
 
-.column-container: {
+.column-container {
   display: flex;
   flex-direction: row;
   align-items: stretch;
